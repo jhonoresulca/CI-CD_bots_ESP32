@@ -129,7 +129,7 @@ void loop() {
     delay(1000);
 
     digitalWrite(2, LOW);
-    Serial.println("LED OFF")
+    Serial.println("LED OFF");
     delay(1000);
 
     // Verificar actualización cada 10 segundos

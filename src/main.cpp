@@ -9,7 +9,7 @@
 #define FIRMWARE_URL "https://github.com/jhonoresulca/CI-CD_bots_ESP32/releases/latest/download/firmware.bin"
 
 // Versión actual del firmware — cambiar en cada release
-String VERSION_LOCAL = "1.0.8";
+String VERSION_LOCAL = "1.0.9";
 
 unsigned long lastCheck = 0;
 
@@ -126,11 +126,11 @@ void loop() {
     // Parpadeo LED para confirmar que el firmware está corriendo
     digitalWrite(2, HIGH);
     Serial.println("LED ON");
-    delay(1000);
+    delay(2000);
 
     digitalWrite(2, LOW);
     Serial.println("LED OFF");
-    delay(1000);
+    delay(500);
 
     // Verificar actualización cada 10 segundos
     if (millis() - lastCheck > 10000) {

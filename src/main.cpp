@@ -9,7 +9,7 @@
 #define FIRMWARE_URL "https://github.com/jhonoresulca/CI-CD_bots_ESP32/releases/latest/download/firmware.bin"
 
 // Versión actual del firmware — cambiar en cada release
-String VERSION_LOCAL = "1.0.5";
+String VERSION_LOCAL = "1.0.6";
 
 unsigned long lastCheck = 0;
 
